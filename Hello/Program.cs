@@ -11,10 +11,12 @@ namespace Hello
         static void Main(string[] args)
         {
             Console.WriteLine(createMessage());
+            Console.ReadLine();
         }
         public static String createMessage()
         {
             return "Hello World";
         }
+        
     }
 }
